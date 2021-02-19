@@ -1,0 +1,129 @@
+body {
+    background-color: lightgreen;
+}
+h1, h2 {
+    color: green;
+    outline-color: black;
+    -webkit-transform: rotate(-15deg);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p {
+    font-size: 18px;
+}
+
+h7 {
+    color: green;
+}
+
+.jumbotron {
+    background-image: url("../assets/spaghetti_bolognese_groot.jpg");
+}
+
+.flipCard {
+    -webkit-perspective: 800px;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+.flipCard .card.flipped {
+    transform:rotatey(-180deg);
+    -webkit-transform:rotatey(-180deg);
+}
+.flipCard .card {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+
+}
+.flipCard .card .side {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 2;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    overflow: auto;
+}
+.flipCard .card .back {
+    background: white;
+    color: black;
+    transform:rotatey(-180deg);
+    -webkit-transform:rotatey(-180deg);
+}
+.flipCard .card .front {
+    background-color: lightseagreen;
+    border: 3px solid white;
+    text-align: center;
+    color: black;
+    font-family: Georgia;
+    font-size: 1em;
+
+}
+.flipCard .card .back {
+    background-color: lightseagreen;
+    border: 3px solid white;
+    text-align: center;
+    color: black;
+    font-family: Georgia;
+    font-size: 2em;
+}
+
+
+.flipCard2 {
+    -webkit-perspective: 800px;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    margin-top: -500px;
+    margin-left: 495px;
+}
+.flipCard2 .card2.flipped {
+    transform:rotatey(-180deg);
+    -webkit-transform:rotatey(-180deg);
+}
+.flipCard2 .card2 {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+}
+.flipCard2 .card2 .side2 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 2;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    overflow: auto;
+}
+.flipCard2 .card2 .back2 {
+    background: white;
+    color: black;
+    transform:rotatey(-180deg);
+    -webkit-transform:rotatey(-180deg);
+}
+.flipCard2 .card2 .front2 {
+    background-color: lightseagreen;
+    border: 3px solid white;
+    text-align: center;
+    color: black;
+    font-family: Georgia;
+    font-size: 1em;
+
+}
+.flipCard2 .card2 .back2 {
+    background-color: lightseagreen;
+    border: 3px solid white;
+    text-align: center;
+    color: black;
+    font-family: Georgia;
+    font-size: 2em;
+}
