@@ -1,0 +1,67 @@
+body {
+    background-color: lightskyblue;
+}
+
+.getal1 {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 15%;
+}
+
+.getal2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 15%
+}
+
+.plus, .min, .maal, .Bdelen {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    border-color: black;
+}
+
+p {
+    font-size: 80px;
+}
+
+.plus {
+    left: 56%;
+}
+
+.min {
+    left: 52%;
+}
+
+.maal {
+    left: 48%;
+}
+
+.Bdelen {
+    left: 44%;
+}
+
+.result {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

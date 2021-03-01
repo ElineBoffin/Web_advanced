@@ -1,0 +1,13 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("https://1.bp.blogspot.com/-UlTHSDMrGP4/T1dCTtwlPQI/AAAAAAAAa7c/YnteT6eN23Y/s1600/Mooie-vliegtuigen-achtergronden-hd-vliegtuig-wallpapers-afbeelding-foto-29.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+

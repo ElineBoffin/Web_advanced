@@ -1,0 +1,16 @@
+body {
+    background-color: green;
+
+}
+
+.jumbotron {
+    background-image: url("https://www.omnicol.eu/file_handler/photos/double/view/2777/Corona-update-liggend.png");
+    height: 100%;
+    width: 100%;
+    backface-visibility: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+
+}
